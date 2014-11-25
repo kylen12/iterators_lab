@@ -3,7 +3,14 @@ var colors = require("colors");
 
 // write the function that will make that test pass.
 var first = function (arr) {
+	if (arr.length === 0)
+	{
+		return undefined;
+	}
 
+	else
+
+		return true;
 };
 // Make the following assertions pass
 var testArr = [5, 6, 7, 8];
